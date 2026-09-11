@@ -4,7 +4,7 @@ import type { Tab } from '../../App'
 
 const ITEMS: { id: Tab; label: string; icon: typeof Stethoscope }[] = [
   { id: 'diagnostico', label: 'Diagnóstico', icon: Stethoscope },
-  { id: 'academia', label: 'Academia', icon: Brain },
+  { id: 'academia', label: 'Exercícios', icon: Brain },
   { id: 'scanner', label: 'Scanner', icon: ScanSearch },
   { id: 'diario', label: 'Diário', icon: BookHeart },
 ]

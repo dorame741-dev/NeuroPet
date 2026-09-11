@@ -25,8 +25,8 @@ function App() {
       <div className="min-h-screen bg-slatebg flex flex-col max-w-md mx-auto">
         <header className="safe-top sticky top-0 z-30 bg-slatebg/90 backdrop-blur-md px-4 pt-3 pb-2">
           <div className="flex flex-col items-center">
-            <img src={logo} alt="NeuroPet" className="w-16 h-16 object-contain drop-shadow-sm" />
-            <h1 className="text-sm font-bold text-navy leading-none -mt-0.5">{TITULOS[tab]}</h1>
+            <img src={logo} alt="NeuroPet" className="h-11 w-auto object-contain drop-shadow-sm" />
+            <h1 className="text-sm font-bold text-navy leading-none mt-1">{TITULOS[tab]}</h1>
           </div>
         </header>
 
