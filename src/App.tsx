@@ -23,13 +23,10 @@ function App() {
   return (
     <NeuroPetProvider>
       <div className="min-h-screen bg-slatebg flex flex-col max-w-md mx-auto">
-        <header className="safe-top sticky top-0 z-30 bg-slatebg/90 backdrop-blur-md px-4 pt-4 pb-2">
-          <div className="flex items-center gap-2">
-            <img src={logo} alt="NeuroPet" className="w-9 h-9 rounded-xl object-contain" />
-            <div>
-              <p className="text-[10px] font-bold text-emerald-dark tracking-widest uppercase">NeuroPet</p>
-              <h1 className="text-base font-bold text-navy leading-none">{TITULOS[tab]}</h1>
-            </div>
+        <header className="safe-top sticky top-0 z-30 bg-slatebg/90 backdrop-blur-md px-4 pt-3 pb-2">
+          <div className="flex flex-col items-center">
+            <img src={logo} alt="NeuroPet" className="w-16 h-16 object-contain drop-shadow-sm" />
+            <h1 className="text-sm font-bold text-navy leading-none -mt-0.5">{TITULOS[tab]}</h1>
           </div>
         </header>
 
