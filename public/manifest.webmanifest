@@ -1,0 +1,10 @@
+{
+  "name": "NeuroPet",
+  "short_name": "NeuroPet",
+  "description": "Diagnóstico, elixir e acompanhamento de lucidez para cães idosos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0F172A",
+  "orientation": "portrait"
+}
